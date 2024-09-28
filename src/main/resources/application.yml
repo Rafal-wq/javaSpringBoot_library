@@ -7,7 +7,7 @@ server:
 
 book:
   json:
-    file-path: books.json
+    file-path: /books.json
 
 logging:
   level:
