@@ -7,18 +7,9 @@ server:
 
 book:
   json:
-    file-path: book.json
+    file-path: books.json
 
 logging:
   level:
     root: INFO
     example.library.library: DEBUG
-
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "*"
-  endpoint:
-    health:
-      show-details: always
