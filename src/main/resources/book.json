@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Effective Java",
+    "author": "Joshua Bloch",
+    "year": 2008,
+    "rating": 4.5,
+    "numberOfRatings": 100
+  },
+  {
+    "id": 2,
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "year": 2008,
+    "rating": 4.8,
+    "numberOfRatings": 150
+  },
+  {
+    "id": 3,
+    "title": "The Pragmatic Programmer",
+    "author": "Andrew Hunt",
+    "year": 1999,
+    "rating": 4.7,
+    "numberOfRatings": 120
+  }
+]

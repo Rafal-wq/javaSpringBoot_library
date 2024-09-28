@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: book-library
+
+server:
+  port: 8080
+
+book:
+  json:
+    file-path: book.json
+
+logging:
+  level:
+    root: INFO
+    example.library.library: DEBUG
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always
